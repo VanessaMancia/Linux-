@@ -27,7 +27,7 @@
 - #### ```echo```"matrix19" | passwd Jon ```-stdin```
 ---
 - ### Force all users to change their password next time they login
-- ```passwd``` ```-e``` Arya
+- #### ```passwd``` ```-e``` Arya
 - 
 
 
