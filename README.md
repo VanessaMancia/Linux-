@@ -96,9 +96,26 @@
 ---
 ### Please reduce the filesystem mounted at /mnt/blacksails to 400MB
 
+---
 
+### Create a backup file named /tmp/thursday.tar.gz, that contains the content of /etc using gzip compression
+
+---
+
+### Generate a tuning profile recommendation, & apply it. Ensure that the profile is persistent. 
+### > In preparation for a custom application to be run on a non-standard port, 7676/TCP, create a Selinux port policy that grants apache access. 
   
+---
 
+### Configure autofs to follow as described below to automatically mount a remote user's home directory: 
+- #### ifj.example.com(10.1.10.178) NFS export /admins/ to your system
+- #### This file system contains the user20 preconfigured home directory
+- #### users20's home directory is ifj.example.com:/admins/user20
+- #### users20's home directory should automatically mount locally to /admins
+
+---
+
+### Install the 'httpd' package. Ensure that the service starts when the system is booted. Grant Selinux access to port 7111/TCP for the httpd service. The label to use should be 'http port t' 
 
 
 
