@@ -89,10 +89,10 @@
 - #### ```touch``` Starksfamily | file{1..10}
 ---
 ### Search for all the files that belong to the group Starks & change the permission to 700
-- #### Find /Starksfamily | -group Starks
-- #### Find /Starksfamily | -group Starks -type f
-- ####  Find /Starksfamily | -group Starks -type f -exec chmod 700 {}\;
-- #### ls -l /Starksfamily
+- #### ```Find``` /Starksfamily | ```-group``` Starks
+- #### ```Find``` /Starksfamily | ```-group``` Starks ```-type f```
+- ####  ```Find``` /Starksfamily | ```-group``` Starks ```-type f``` ```-exec chmod 700 {}\;```
+- #### ```ls -l``` /Starksfamily
 ---
 ### Please reduce the filesystem mounted at /mnt/blacksails to 400MB
 
